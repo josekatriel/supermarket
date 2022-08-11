@@ -1,0 +1,14 @@
+name: SuperMarket
+version: '${project.version}'
+main: me.josekat.supermarket.SuperMarket
+api-version: 1.16
+authors: [ JoseKat ]
+description: Dynamic Market with a lot of features
+depend:
+  - Vault
+commands:
+  balance:
+    description: check balance
+    aliases: bal
+  market:
+    description: open market start page
